@@ -3,6 +3,10 @@
   src: url("../font/Rancho-Regular.ttf") format("truetype");
 }
 
+html, body {
+  width: 100%;
+}
+
 .centered {
   position: fixed;
   top: 50%;
@@ -27,8 +31,14 @@ p {
 }
 
 #welcome-wrapper {
+  max-width: 100%;
   padding: 10px;
   border: 10px dotted #450b0e;
+}
+
+#welcome-wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 #game-wrapper {
