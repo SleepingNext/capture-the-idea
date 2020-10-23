@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Rancho";
+  src: url("../font/Rancho-Regular.ttf") format("truetype");
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  /* font-size: 5em; */
+  letter-spacing: 0.075em;
+  font-family: "Rancho", cursive;
+  text-align: center;
+  color: #fa98a2;
+}
+
+p {
+  margin-top: -2.5%;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+#welcome-wrapper {
+  padding: 10px;
+  border: 10px dotted #450b0e;
+}
+
+#game-wrapper {
+  width: 125px;
+  height: 125px;
+  text-align: center;
+}
+
+#ithoughts {
+  width: 550px;
+}
+
+#idea {
+  width: 75%;
+}
