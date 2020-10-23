@@ -1,0 +1,21 @@
+#dark {
+  background-color: #121212;
+}
+
+#dark #game-wrapper p {
+  color: aliceblue;
+  text-shadow: 1px 1px black;
+}
+
+#dark #game-wrapper img {
+  background-color: #fffffe;
+  border-radius: 100%;
+}
+
+#dark #lightbutton {
+  display: inline-block;
+}
+
+#dark #darkButton {
+  display: none;
+}

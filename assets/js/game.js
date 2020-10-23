@@ -8,3 +8,13 @@ function runAway() {
   document.getElementById("game-wrapper").style.transform =
     "translate(" + newX + "px," + newY + "px)";
 }
+
+function setDarkMode(boolean) {
+  if(boolean) {
+      document.body.id = "dark";
+      localStorage.setItem('theme', 'dark');
+  } else {
+      localStorage.setItem('theme', 'light');
+      document.body.removeAttribute('id');
+  }
+}

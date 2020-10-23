@@ -10,6 +10,7 @@
 
 	<title>SleepingNext</title>
 	<link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style-dark.css" rel="stylesheet">
 	<script src="assets/js/game.js"></script>
 </head>
 
@@ -25,6 +26,17 @@
 	<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 	<!-- light bulb from: https://www.stockvault.net/photo/174577/light-bulb-ideas -->
 	<!-- ithoughts from: https://dribbble.com/shots/3681584-/attachments/3681584-?mode=media -->
+  <div id="mode-wrapper">
+    <button onclick="setDarkMode(true)" id="darkButton">Dark Mode</button>
+    <button onclick="setDarkMode(false)" id="lightButton">Light Mode</button>
+  </div>
 </body>
 
+<script>
+  if(localStorage.getItem('theme') === 'dark') {
+    document.body.id = "dark";
+  } else {
+    document.body.removeAttribute('id');
+  }
+</script>
 </html>

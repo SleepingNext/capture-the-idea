@@ -37,6 +37,30 @@ p {
   text-align: center;
 }
 
+#mode-wrapper {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+#mode-wrapper button {
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+}
+
+#mode-wrapper button:hover {
+  font-weight: bold;
+}
+
+#mode-wrapper #lightButton {
+  display: none;
+}
+
+#mode-wrapper #darkButton {
+  filter: invert(100%);
+}
+
 #ithoughts {
   width: 550px;
 }
@@ -44,3 +68,4 @@ p {
 #idea {
   width: 75%;
 }
+
